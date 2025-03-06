@@ -1,0 +1,11 @@
+name: Read hello.txt file
+
+on:
+    push:
+        branches:
+        - main
+
+jobs:
+    read_hello:
+        runs-on: ubuntu-latest
+    
